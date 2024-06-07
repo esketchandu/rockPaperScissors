@@ -51,7 +51,7 @@ function getCPUMove() {
 
 function processMove(cmd, cpu) {
   {
-    console.log(`You pick ${VALID_MOVES[cmd].name}, computer picks ${VALID_MOVES[cpu].name}.`);
+    console.log(`You pick ${cmd}, computer picks ${cpu}.`);
     // if (cpu === 'r') {
     //   console.log(`You pick ${VALID_MOVES[cmd].name}, computer picks ${VALID_MOVES[cpu].name}.`);
     //   //wins++;
